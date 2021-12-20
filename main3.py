@@ -22,9 +22,6 @@ def param_decorator(target_folder):
 
 
 # Та основная функция к которой мы добавляем функционал
-@param_decorator('/Users/sergejpetrov/desktop/1')
-def create_full_name(name, lastname):
-    return name + " " + lastname
 
-if __name__ == '__main__':
-    print(create_full_name('Sergey', 'Petrov'))
+# if __name__ == '__main__':
+#     print(create_full_name('Sergey', 'Petrov'))
